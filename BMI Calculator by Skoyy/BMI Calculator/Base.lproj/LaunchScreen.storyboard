@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="bGY-j9-aDN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skoyy_inc_logo" translatesAutoresizingMaskIntoConstraints="NO" id="J3v-r5-5BT">
+                                <rect key="frame" x="20" y="411.5" width="187" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="cYS-dO-Fky"/>
+                                    <constraint firstAttribute="width" constant="187" id="qqU-0L-zIz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="982px-Logo_Telkom_University_potrait" translatesAutoresizingMaskIntoConstraints="NO" id="VfG-er-hrY">
+                                <rect key="frame" x="215" y="411.5" width="187" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="187" id="NJf-3p-OEA"/>
+                                    <constraint firstAttribute="height" constant="73" id="UMJ-8M-84H"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M67-GW-ESJ">
+                                <rect key="frame" x="182.5" y="428.5" width="49" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="Itf-yd-aVv"/>
+                                    <constraint firstAttribute="height" constant="39" id="qmY-vn-YGf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VfG-er-hrY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="02H-9b-82s"/>
+                            <constraint firstItem="J3v-r5-5BT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="A03-48-3JI"/>
+                            <constraint firstAttribute="trailing" secondItem="bGY-j9-aDN" secondAttribute="trailing" id="FvD-ML-4Bc"/>
+                            <constraint firstItem="VfG-er-hrY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="101.5" id="GUk-Ie-acQ"/>
+                            <constraint firstItem="VfG-er-hrY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="101.5" id="JiO-RF-Fjy"/>
+                            <constraint firstItem="J3v-r5-5BT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-93.5" id="Nnt-RP-fPm"/>
+                            <constraint firstItem="M67-GW-ESJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WIX-b0-52u"/>
+                            <constraint firstItem="M67-GW-ESJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="a70-qL-FGr"/>
+                            <constraint firstAttribute="bottom" secondItem="bGY-j9-aDN" secondAttribute="bottom" id="aVJ-xL-hk6"/>
+                            <constraint firstItem="VfG-er-hrY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bDI-uX-f8y"/>
+                            <constraint firstItem="bGY-j9-aDN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="i5N-YC-Ren"/>
+                            <constraint firstItem="bGY-j9-aDN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="jTq-3K-07C"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2" width="1000" height="1000"/>
+        <image name="982px-Logo_Telkom_University_potrait" width="327" height="399"/>
+        <image name="skoyy_inc_logo" width="66.5" height="66.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

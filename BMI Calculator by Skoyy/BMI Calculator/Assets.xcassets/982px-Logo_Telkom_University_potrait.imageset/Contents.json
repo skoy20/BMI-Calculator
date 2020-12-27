@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "982px-Logo_Telkom_University_potrait.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "982px-Logo_Telkom_University_potrait@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "982px-Logo_Telkom_University_potrait@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
